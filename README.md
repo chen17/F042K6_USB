@@ -1,5 +1,5 @@
 # F042K6_USB
-Sample code to create USB device on NUCLEO F042K6. Tested on "Ubuntu 20.04.1 LTS".
+Sample code to create USB device on NUCLEO F042K6. Tested on "Ubuntu 20.04.1 LTS" and MacOS "11.2.3".
 
 ### Install virtualenv, python2, mbed and gcc-arm
 ```
@@ -23,7 +23,7 @@ mbed config -G ARM_PATH `pwd`/gcc-arm-none-eabi-6-2017-q2-update/bin
 ### Download mbed and usb sample code
 ```
 mkdir magicusb
-cd 
+cd magicusb
 hg clone https://os.mbed.com/users/mbed_official/code/mbed-sdk-tools/ tools
 pip install -r ./tools/requirements.txt
 git clone https://github.com/ARMmbed/mbed-dev
