@@ -6,6 +6,7 @@ Sample code to create USB device on NUCLEO F042K6.
 # install gcc-arm-none-eabi-6-2017-q2-update
 # install mercurial and git SCM
 
+```
 pip install virtualenv
 python -m virtualenv .venv2
 . .venv2/bin/activate
@@ -18,8 +19,10 @@ hg clone https://os.mbed.com/users/mbed_official/code/mbed-sdk-tools/ tools
 pip install -r ./tools/requirements.txt
 git clone https://github.com/ARMmbed/mbed-dev
 git clone https://github.com/chen17/F042K6_USB
+```
 
-# create your main.cpp or get example
+### create your main.cpp or get example
 wget https://raw.githubusercontent.com/chen17/F042K6_USB/master/main.cpp
 
+### Start compile
 mbed compile -m NUCLEO_F042K6 -t GCC_ARM
