@@ -29,6 +29,7 @@ pip install -r ./tools/requirements.txt
 git clone https://github.com/ARMmbed/mbed-dev
 git clone https://github.com/chen17/F042K6_USB F042K6_USBDevice
 mv F042K6_USBDevice/main.cpp .
+echo "ROOT=." > .mbed
 ```
 
 ### Start compile
