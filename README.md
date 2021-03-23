@@ -32,11 +32,7 @@ hg clone https://os.mbed.com/users/mbed_official/code/mbed-sdk-tools/ tools
 pip install -r ./tools/requirements.txt
 git clone https://github.com/ARMmbed/mbed-dev
 git clone https://github.com/chen17/F042K6_USB F042K6_USBDevice
-```
-
-### create your main.cpp or get example
-```
-wget https://raw.githubusercontent.com/chen17/F042K6_USB/master/main.cpp
+mv F042K6_USBDevice/main.cpp .
 ```
 
 ### Start compile
