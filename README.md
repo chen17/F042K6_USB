@@ -18,6 +18,7 @@ Mac:
 wget https://developer.arm.com/-/media/Files/downloads/gnu-rm/6-2017q2/gcc-arm-none-eabi-6-2017-q2-update-mac.tar.bz2
 tar xvf gcc-arm-none-eabi-6-2017-q2-update-linux.tar.bz2
 mbed config -G ARM_PATH `pwd`/gcc-arm-none-eabi-6-2017-q2-update/bin
+mbed config -G GCC_ARM_PATH `pwd`/gcc-arm-none-eabi-6-2017-q2-update/bin
 ```
 
 ### Download mbed and usb sample code
