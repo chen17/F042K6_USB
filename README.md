@@ -9,7 +9,7 @@ python2 get-pip.py
 pip install virtualenv 
 python2 -m virtualenv py2
 source py2/bin/activate
-pip install mbed-cli==1.10.1 pyelftools jsonschema Mercurial
+pip install mbed-cli==1.10.4 pyelftools==0.29 jsonschema Mercurial==5.9.3
 
 Linux:
 wget https://developer.arm.com/-/media/Files/downloads/gnu-rm/6-2017q2/gcc-arm-none-eabi-6-2017-q2-update-linux.tar.bz2
